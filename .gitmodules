@@ -1,9 +1,0 @@
-[submodule "glfw"]
-	path = glfw
-	url = https://github.com/glfw/glfw.git
-[submodule "dep/linmath.h"]
-	path = dep/linmath.h
-	url = https://github.com/datenwolf/linmath.h.git
-[submodule "dep/glfw"]
-	path = dep/glfw
-	url = https://github.com/glfw/glfw.git
