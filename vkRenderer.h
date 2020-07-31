@@ -3,7 +3,7 @@
 
 int vk_renderer_create(void);
 
-int vk_drawFrame(void);
+int vk_draw_frame(void);
 
 int vk_renderer_destroy(void);
 
