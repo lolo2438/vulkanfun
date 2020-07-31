@@ -146,12 +146,12 @@ static void createInstance(void){
                            | VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT;
 
   VkDebugUtilsMessengerCreateInfoEXT debugUtilsMessengerCreateInfo = {
-      .sType         = VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT,
-      .pNext         = NULL,
-      .flags         = 0,
-      .messageSeverity  = messageSeverityFlags,
+      .sType           = VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT,
+      .pNext           = NULL,
+      .flags           = 0,
+      .messageSeverity = messageSeverityFlags,
       .messageType     = messageTypeFlags,
-      .pfnUserCallback   = debugCallback,
+      .pfnUserCallback = debugCallback,
       .pUserData       = NULL
   };
 
